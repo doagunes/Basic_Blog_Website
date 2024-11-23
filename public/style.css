@@ -1,0 +1,120 @@
+
+.myImage{
+    width: 300px;
+    border-radius: 500px;
+    margin-bottom: 10px;
+}
+.section1 h1{
+    font-family: cursive;
+    font-size: 60px;
+    color: rgb(228, 147, 179);
+}
+.section1 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(183, 132, 183);
+}
+.section1 {
+    background-color: rgb(255, 221, 204);
+}
+
+.githubProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+}
+.githubProjects h2{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 221, 204);
+}
+.githubimg{
+    height: 70px;
+    margin-bottom: 10px;
+}
+.section2 img{
+    width: 300px;
+    
+}
+.section2 .container{
+   display: flex;
+   justify-content: center;
+   justify-content: space-around; 
+   height: 250px;
+}
+.item1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.item2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.item3 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.item4 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.container h4{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.moreAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.moreAbout h2{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 221, 204);
+    margin-top: 50px;
+}
+
+.section3 .container{
+    height: 700px;
+    width: 800px;
+}
+.section3 .container img{
+    border-radius: 30px;
+    height: 600px;
+    width: 700px;
+}
+.section3 .container h3{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+.section4 .container{
+    display: flex;
+    height: 300px;
+    background-color: rgb(255, 221, 204);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 img{
+    height: 60px;
+    margin-bottom: 10px;
+}
+.section4 h2{
+    font-size: 60px;
+    color: rgb(228, 147, 179);
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section4 .btn{
+    background-color: rgb(183, 132, 183);
+}

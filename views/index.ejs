@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+
+<% if(locals.textArray){ %>
+    <% for(var i=0 ;i < textArray.length; i++){ %>
+    <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="margin-left: 50px;">
+            <div class="col p-4 d-flex flex-column position-static" style="background-color:  rgb(255, 221, 204);">
+              <h3 class="mb-0" style="color: rgb(199, 91, 122); font-size: 30px;">🌸 Blog <%= i+1 %> </h3>
+                <p class="card-text mb-auto" style="font-size: 20px; color: rgb(116, 9, 56);" > <%= textArray[i] %> </p>
+                <form action="/delete" method="POST">
+                    <input type="hidden" name="deleteIndex" value="<%= i %>"> 
+                    <input type="submit" value="Delete" style=" color: rgb(116, 9, 56); background-color: rgb(255, 198, 198); outline: none; border: none; height: 40px; border-radius: 10px; margin-top: 5px; margin-left: 500px;">
+                  </form>
+                <form action="/update" method="GET">
+                    <input type="hidden" name="updateIndex" value="<%= i %>"> 
+                    <input type="submit" value="Update" style=" color: rgb(116, 9, 56); background-color: rgb(255, 198, 198); outline: none; border: none; height: 40px; border-radius: 10px; margin-top: 10px; margin-left: 500px;">
+                  </form>  
+            </div>
+          </div>
+        </div>
+    <% } %>    
+<% } %>
+    
